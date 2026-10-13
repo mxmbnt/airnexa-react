@@ -1,0 +1,226 @@
+export default function Features() {
+  return (
+    <section className="section">
+      <div className="container">
+        <div className="grid-cols cc-column">
+          <div data-header-item="" className="header-col cc-max-660">
+            <div
+              data-wf--eyebrow--variant="dark"
+              className="eyebrow w-variant-cbe092bf-db71-450d-2685-e3d14466c853"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="100%"
+                viewBox="0 0 24 24"
+                fill="none"
+                className="icon u-text-accent-2 w-variant-cbe092bf-db71-450d-2685-e3d14466c853"
+              >
+                <g clipPath="url(#clip0_2131_12410)">
+                  <path
+                    d="M14.8758 1.15791L12.5736 0.541016L10.6334 7.78174L8.88183 1.24477L6.57953 1.86166L8.47202 8.92437L3.75828 4.21066L2.0729 5.89604L7.24328 11.0665L0.804392 9.34115L0.1875 11.6434L7.22279 13.5285C7.14224 13.1811 7.09963 12.8191 7.09963 12.4472C7.09963 9.81442 9.23387 7.68018 11.8666 7.68018C14.4994 7.68018 16.6336 9.81442 16.6336 12.4472C16.6336 12.8167 16.5915 13.1765 16.512 13.5218L22.9057 15.235L23.5226 12.9328L16.4593 11.0402L22.8987 9.31475L22.2817 7.01251L15.2188 8.905L19.9325 4.19131L18.2471 2.50593L13.1484 7.60461L14.8758 1.15791Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M16.5023 13.5469C16.3049 14.3814 15.8882 15.1311 15.3164 15.7317L19.9484 20.3638L21.6338 18.6784L16.5023 13.5469Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M15.2707 15.7812C14.692 16.3723 13.9607 16.8134 13.1406 17.0407L14.8261 23.331L17.1284 22.7141L15.2707 15.7812Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M13.055 17.0627C12.6745 17.1605 12.2757 17.2125 11.8647 17.2125C11.4244 17.2125 10.9981 17.1528 10.5933 17.041L8.90625 23.3371L11.2085 23.954L13.055 17.0627Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M10.5135 17.0183C9.70592 16.7797 8.98762 16.333 8.42075 15.7402L3.77734 20.3836L5.46272 22.069L10.5135 17.0183Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M8.3794 15.6988C7.82225 15.1023 7.41641 14.3626 7.22324 13.541L0.808594 15.2598L1.42548 17.5621L8.3794 15.6988Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_2131_12410">
+                    <rect width="24" height="24" fill="currentColor"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <div className="text-md">Check out our features</div>
+            </div>
+            <div className="title-wrapper cc-md">
+              <div className="title-wrapper">
+                <h2 className="text-h2">Boost your organization's valuable data insights.</h2>
+              </div>
+            </div>
+            <div
+              id="w-node-_0adc29dc-22b0-263f-293b-31831d5d8ebe-1d5d8ebe"
+              style={{ maxWidth: '28rem' }}
+              className="text-wrapper"
+            >
+              <p className="text-md">Essential tools for team success.</p>
+            </div>
+          </div>
+          <div data-header-item="" className="content-col cc-3col cc-gap-20">
+            <div data-wf--features-card--variant="base" className="features-card">
+              <div className="image-wrapper cc-features">
+                <img
+                  src="/img/gpt-image-1.5-high-fidelity-b-minimal-flat-icon-of1.webp"
+                  loading="lazy"
+                  width="247"
+                  height="230"
+                  alt="Green icon of a classical building facade with three columns and a triangular pediment."
+                />
+              </div>
+              <img
+                width="411"
+                height="468"
+                alt="Woman in a brown jacket holding a shopping bag and handing a credit card to a male cashier wearing a denim jacket at a store counter."
+                src="/img/featurescard3.webp"
+                loading="lazy"
+                sizes="(max-width: 479px) 100vw, 411px"
+                srcSet="/img/featurescard3-p-500.webp 500w, /img/featurescard3-p-800.webp 800w, /img/featurescard3.webp 822w"
+                className="features-img"
+              />
+              <div className="features-overlay"></div>
+              <div className="bottom-wrap cc-features">
+                <div className="title-wrapper">
+                  <div className="text-h5 u-text-surface">Card facilities </div>
+                  <div className="text-sm u-text-surface cc-top-16">
+                    Get real-time insights into your spending habits with our advanced card management tools.
+                  </div>
+                </div>
+                <div className="cta-wrapper cc-top-0">
+                  <a
+                    data-wf--button--variant="accent"
+                    data-wf-component-id="364c8e17-73bd-f898-61b9-c3e020d4ec6f"
+                    data-wf-variant-state="aae7e1ac-5797-c4ac-06cf-fad0bd92cc98"
+                    href="/contact"
+                    className="button w-variant-aae7e1ac-5797-c4ac-06cf-fad0bd92cc98 w-inline-block"
+                  >
+                    <div className="button-text-wrap">
+                      <div button-text-top="" className="button-text">
+                        Download from app store
+                      </div>
+                      <div button-text-bottom="" className="button-text cc-bottom">
+                        Download from app store
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              data-wf--features-card--variant="accent"
+              className="features-card w-variant-d0157fd2-e3ca-53ec-29d2-748427844e76"
+            >
+              <div className="image-wrapper cc-features w-variant-d0157fd2-e3ca-53ec-29d2-748427844e76">
+                <img
+                  src="/img/gpt-image-1.5-high-fidelity-b-minimal-flat-icon-of1.webp"
+                  loading="lazy"
+                  width="247"
+                  height="230"
+                  alt="Green icon of a classical building facade with three columns and a triangular pediment."
+                />
+              </div>
+              <img
+                width="411"
+                height="468"
+                alt="Woman in a brown jacket holding a shopping bag and handing a credit card to a male cashier wearing a denim jacket at a store counter."
+                src="/img/featurescard3.webp"
+                loading="lazy"
+                sizes="(max-width: 479px) 100vw, 411px"
+                srcSet="/img/featurescard3-p-500.webp 500w, /img/featurescard3-p-800.webp 800w, /img/featurescard3.webp 822w"
+                className="features-img w-variant-d0157fd2-e3ca-53ec-29d2-748427844e76"
+              />
+              <div className="features-overlay w-variant-d0157fd2-e3ca-53ec-29d2-748427844e76"></div>
+              <div className="bottom-wrap cc-features w-variant-d0157fd2-e3ca-53ec-29d2-748427844e76">
+                <div className="title-wrapper">
+                  <div className="text-h5 u-text-surface w-variant-d0157fd2-e3ca-53ec-29d2-748427844e76">
+                    Business Banking
+                  </div>
+                  <div className="text-sm u-text-surface w-variant-d0157fd2-e3ca-53ec-29d2-748427844e76 cc-top-16">
+                    Experience a user-friendly platform that transforms intricate data into actionable
+                    insights.
+                  </div>
+                </div>
+                <div className="cta-wrapper cc-top-0 w-variant-d0157fd2-e3ca-53ec-29d2-748427844e76">
+                  <a
+                    data-wf--button--variant="accent"
+                    data-wf-component-id="364c8e17-73bd-f898-61b9-c3e020d4ec6f"
+                    data-wf-variant-state="aae7e1ac-5797-c4ac-06cf-fad0bd92cc98"
+                    href="#"
+                    className="button w-variant-aae7e1ac-5797-c4ac-06cf-fad0bd92cc98 w-inline-block"
+                  >
+                    <div className="button-text-wrap">
+                      <div button-text-top="" className="button-text">
+                        Download from app store
+                      </div>
+                      <div button-text-bottom="" className="button-text cc-bottom">
+                        Download from app store
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              data-wf--features-card--variant="white"
+              className="features-card w-variant-12f2ffc8-0e63-0186-16b4-244a23fe44f0"
+            >
+              <div className="image-wrapper cc-features w-variant-12f2ffc8-0e63-0186-16b4-244a23fe44f0">
+                <img
+                  src="/img/greenpiggybank1.webp"
+                  loading="lazy"
+                  width="247"
+                  height="230"
+                  alt="Green piggy bank with a dollar coin being inserted from the top."
+                />
+              </div>
+              <img
+                width="411"
+                height="468"
+                alt="Woman in a brown jacket holding a shopping bag and handing a credit card to a male cashier wearing a denim jacket at a store counter."
+                src="/img/featurescard3.webp"
+                loading="lazy"
+                sizes="(max-width: 479px) 100vw, 411px"
+                srcSet="/img/featurescard3-p-500.webp 500w, /img/featurescard3-p-800.webp 800w, /img/featurescard3.webp 822w"
+                className="features-img w-variant-12f2ffc8-0e63-0186-16b4-244a23fe44f0"
+              />
+              <div className="features-overlay w-variant-12f2ffc8-0e63-0186-16b4-244a23fe44f0"></div>
+              <div className="bottom-wrap cc-features w-variant-12f2ffc8-0e63-0186-16b4-244a23fe44f0">
+                <div className="title-wrapper">
+                  <div className="text-h5 u-text-surface w-variant-12f2ffc8-0e63-0186-16b4-244a23fe44f0">
+                    Personal saving account
+                  </div>
+                  <div className="text-sm u-text-surface w-variant-12f2ffc8-0e63-0186-16b4-244a23fe44f0 cc-top-16">
+                    Connect Airapp to your favorite tools for a streamlined savings experience.
+                  </div>
+                </div>
+                <div className="cta-wrapper cc-top-0 w-variant-12f2ffc8-0e63-0186-16b4-244a23fe44f0">
+                  <a
+                    data-wf--button--variant="accent"
+                    data-wf-component-id="364c8e17-73bd-f898-61b9-c3e020d4ec6f"
+                    data-wf-variant-state="aae7e1ac-5797-c4ac-06cf-fad0bd92cc98"
+                    href="#"
+                    className="button w-variant-aae7e1ac-5797-c4ac-06cf-fad0bd92cc98 w-inline-block"
+                  >
+                    <div className="button-text-wrap">
+                      <div button-text-top="" className="button-text">
+                        Download from app store
+                      </div>
+                      <div button-text-bottom="" className="button-text cc-bottom">
+                        Download from app store
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

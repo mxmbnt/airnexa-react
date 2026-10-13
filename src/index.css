@@ -1,0 +1,82 @@
+/*
+  Design system : src/styles/webflow.css est la feuille d'origine du template (tokens dans :root,
+  breakpoints 991 / 767 / 479px). Tailwind est chargé sans preflight pour ne pas écraser ces styles :
+  les classes utilitaires restent disponibles pour les ajouts.
+*/
+@import './styles/webflow.css';
+@import 'tailwindcss/theme' layer(theme);
+@import 'tailwindcss/utilities' layer(utilities);
+
+@theme {
+  --font-sans: 'Geist Variable Font', Arial, sans-serif;
+  --font-accent: 'Instrument Sans', Arial, sans-serif;
+
+  --color-ink: #1b1b1b;
+  --color-accent: #012025; /* vert très foncé : boutons, FAQ, CTA */
+  --color-violet: #7f56d9;
+  --color-lime: #d9e757;
+  --color-lime-soft: #caef7d;
+  --color-lilac: #f9f5ff;
+  --color-surface: #ffffff;
+  --color-bg: #f7f8f8;
+}
+
+/* Lenis (smooth scroll) */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Background videos : fallback image only for reduced motion */
+[data-wf-bgvideo-fallback-img] {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-wf-bgvideo-fallback-img] {
+    position: absolute;
+    z-index: -100;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Same guard as Webflow: animated elements stay hidden until the animations are ready */
+html.w-mod-js:not(.w-mod-ix3)
+  :is(
+    [data-header-eyebrow],
+    [data-header-title],
+    [data-header-text],
+    [data-header-button],
+    [data-header-image],
+    [data-header-item] > *,
+    .footer-text,
+    .features-video [features-text],
+    .features-video .cta-wrapper.cc-smart,
+    [scale-in],
+    [scale-out]
+  ) {
+  visibility: hidden !important;
+}
+
+/* SplitText line masks */
+.split-mask {
+  overflow: clip;
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
